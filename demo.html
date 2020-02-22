@@ -1,0 +1,111 @@
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+pattern="[A-z]{3}"</br>
+<form action="/example/html5/demo_form.asp" method="get">
+国家代码：<input type="text" name="country_code" pattern="[A-z]{3}" title="三个字母的国家代码" />
+<input type="submit" />
+</form></br>
+<form action="/example/html5/demo_form.asp" method="get">
+国家代码(去重测试)：<input type="text" name="country_code" pattern="[A-z]{3}" title="三个字母的国家代码" />
+<input type="submit" />
+</form></br>
+<input type="text" maxlength="11" class="tel-input" placeholder="手机号码" value="">
+maxlength="11"</br>
+<input type="text" maxlength="11" class="tel-input" placeholder="手机号码" value="">
+maxlength="11"（去重测试）</br></br></br>
+
+<input class="form-control normal-textbox-width valid" name="email" type="email" placeholder="用户名" data-val="'true'" data-val-required="必填">
+type="email"</br>
+<input type="tel" id="phone" data-theme="inputRS" placeholder="必填">
+type="tel" phone</br>
+<input type="username" class="form-control" placeholder="用户名" required autofocus id="username" name="username" value="" />
+type="username" usr "name"</br></br></br>
+
+<input type="file" accept="image/*" />
+type="file" accept="image/*"</br>
+<input type="file" accept=".xls,.xlsx" name="file" onchange="upload()">
+<input type="file" id="file" accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet">
+type="file" accept=".xls,.xlsx"	.sheet .excel .csv</br>
+<input type="file" accept="application/zip" id="file-input">
+type="file" accept="application/zip"</br>
+<input type="file" id="fileinput" name="jsonfile" accept="application/json">
+accept="application/json"</br>
+<input type="file" id="addfrombookmark" style="" onchange="addbookmark()" accept="text/html">
+accept="text/html"</br>
+<input type="file" name="file1" accept="text/xml, application/xml">
+accept="text/xml</br>
+<input type="file" id="file2" style="display:none;">
+style="display:none;"</br>
+<input disabled="disabled" class="button" type="hidden" value="注册">
+disabled="disabled"</br>
+<input name="_csrf" value="f1ec3d9e-1c54-45ea-9be9-ac5cffa7a473">
+value=""</br>
+内层值丢失的嵌套form:
+<form action="#" method="post" target="" name="comment">
+<iframe><html><head></head><body>
+<form name="form2"><a href="/Loo/submit" class="btn btn-blue btn-submit" id="btnSub" style="width: 138px;">提交漏洞</a></form>
+</iframe>
+            <p class="search clearfix">
+                <input type="hidden" name="sword"   placeholder="search"/>
+                <button type="hidden" value=" "></button>
+            </p>
+        </form></br>
+<!--<form action="#" method="post" target="" name="comment">
+            <p class="search clearfix">
+                <input type="hidden" name="sword"   placeholder="search"/>
+                <button type="hidden" value=" "></button>
+            </p>
+        </form>-->
+<(￣︶￣)↗[GO!]burpsuite<\!-- -->write<\iframe src=""></br>
+https://www.runoob.com/try/try.php?filename=tryjsref_document_adoptnode</br>
+</br></br></br>
+
+input type="reset"
+<input type="reset" name="reset" value="重_置" class="an" onclick="alert('重置')">
+<input type="reset" name="reset" value="重_置" class="an" onclick="alert('重置')">
+</br>
+button:
+<script>
+function myFunction(){
+var t=document.createTextNode("点击成功");
+document.getElementsByName("mybutton")[0].appendChild(t);
+}
+</script>
+<button name="mybutton" onclick="myFunction()">点我</button>
+</br></br></br>
+
+<select name="selCate" id="selCate">
+								<option value="0">请选择类别</option>
+								<option value="1">1</option>
+								<option value="8">2</option>
+								<option value="7">3</option>
+								<option value="9">4</option>
+								<option value="10">5</option>
+							</select>
+</br></br></br>
+
+Checkbox:
+<input type="checkbox" value="cv1" name="c1">
+<input type="checkbox" value="cv2">
+<input type="checkbox" value="cv3" name="c1">
+<input type="checkbox" value="cv4">
+<p>
+Radio:
+<input type="radio" value="rv1" name="r1">
+<input type="radio" value="rv2" name="r1">
+<p>
+textarea:
+<textarea class="W2TSX_" placeholder="写下你的评论..."></textarea>
+</br></br></br>
+
+onclick="myFunction_onclick()":
+<script>
+function myFunction_onclick(){
+var t=document.createTextNode("触发onx成功");
+document.getElementsByName("onclick")[0].appendChild(t);
+}
+</script>
+<p name="onclick" onclick="myFunction_onclick()">点我</br></p>
+</br></br></br>
+
+form target="_blank"
+login设置复杂错误密码，value按了之后删cookie
